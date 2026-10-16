@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemanth L | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="hero" id="home">
+        <nav class="nav wrap">
+            <a href="#home" class="brand"><span class="logo">H</span><span id="brandName">Hemanth L</span></a>
+            <div class="links">
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#academics">Academics</a>
+                <a href="#online">Profiles</a>
+                <a href="#message">Message</a>
+                <button id="themeBtn" class="theme-btn">☀ Light</button>
+            </div>
+        </nav>
+        <div class="hero-inner wrap">
+            <div class="hero-text">
+                <h1 id="heroTitle"></h1>
+                <p class="typing"><span id="typed"></span><span class="cursor"></span></p>
+                <p class="tagline" id="heroTagline"></p>
+                <div class="hero-btns">
+                    <a href="#message" class="btn primary">Leave a message</a>
+                    <a id="heroGithub" class="btn outline" target="_blank" href="#">GitHub</a>
+                </div>
+            </div>
+            <div class="card hero-card" id="heroCard"></div>
+        </div>
+    </header>
+
+    <main>
+        <section id="skills">
+            <div class="wrap">
+                <h2>What I work with</h2>
+                <p class="sub">Tools I use today, and the ones I'm learning next.</p>
+                <div class="card" id="skillsCard"></div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="wrap">
+                <h2>Things I've built</h2>
+                <p class="sub">Open means I'm still working on it. Merged means it's finished and shipped.</p>
+                <div class="projects" id="projectList"></div>
+            </div>
+        </section>
+
+        <section id="academics">
+            <div class="wrap">
+                <h2>Where I've studied</h2>
+                <p class="sub">Degree, results and awards, newest first.</p>
+                <div class="card" id="logCard"></div>
+            </div>
+        </section>
+
+        <section id="online">
+            <div class="wrap">
+                <h2>Find me online</h2>
+                <p class="sub">My code on GitHub and my practice on LeetCode.</p>
+                <div class="two">
+                    <div class="card" id="githubCard"></div>
+                    <div class="card" id="leetcodeCard"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="message">
+            <div class="wrap">
+                <h2>Say hello</h2>
+                <p class="sub">Your message goes straight to my server and I reply by email.</p>
+                <div class="card">
+                    <div class="file-head first"><b>new-message.md</b><span><i class="a">+1</i></span></div>
+                    <div class="hunk">@@ compose @@</div>
+                    <div class="compose">
+                        <form id="messageForm" novalidate>
+                            <div class="field-row">
+                                <div>
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" placeholder="Your name" maxlength="50">
+                                </div>
+                                <div>
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" placeholder="you@example.com" maxlength="100">
+                                </div>
+                            </div>
+                            <label for="msg">Message</label>
+                            <textarea id="msg" name="message" placeholder="What would you like to talk about?" maxlength="1000"></textarea>
+                            <div class="send-row">
+                                <button type="submit" class="btn primary" id="sendBtn">Send message</button>
+                                <span class="note" id="replyTime"></span>
+                            </div>
+                        </form>
+                        <div class="right">
+                            <div class="line bold"><span>## Other ways to reach me</span></div>
+                            <div id="otherWays"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+        <footer>
+        <div class="wrap">
+            <div class="footer-top">
+                <div class="footer-about">
+                    <a href="#home" class="brand"><span class="logo">H</span><span id="footerName">Hemanth L</span></a>
+                    <p>MERN stack developer and problem solver, building full stack apps from scratch.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Pages</h4>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#academics">Academics</a>
+                    <a href="#message">Message</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Find me</h4>
+                    <a href="https://github.com/hemanthl1307" target="_blank">GitHub</a>
+                    <a href="https://leetcode.com/u/Gojo13/" target="_blank">LeetCode</a>
+                    <a href="#home">Back to top</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Hemanth L. All rights reserved.</p>
+                <p>Made with <span class="heart">&hearts;</span> by Hemanth L</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup" id="popup">
+        <div class="popup-box" id="popupBox">
+            <h3 id="popupTitle"></h3>
+            <p id="popupText"></p>
+            <button class="btn primary" id="popupClose">Close</button>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

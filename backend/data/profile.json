@@ -1,0 +1,64 @@
+{
+  "name": "Hemanth L",
+  "shortName": "Hemanth",
+  "initials": "HL",
+  "photo": "images/profile.png",
+  "role": "MERN Stack Developer",
+   "roles": ["MERN Stack Developer", "Competitive Programmer", "Open Source Contributor", "AI/ML & Data Science Enthusiast"],
+  "status": "Open to opportunities",
+  "heroTitle": "Hemanth L,<br><span class='small'>writing <em>code</em><br>that solves problems.</span>",
+  "tagline": "I build MERN apps and sharpen my problem solving with DSA on LeetCode.",
+  "about": {
+    "removed": "tutorials I only watched",
+    "added": "projects I design, code and ship myself",
+        "text": "I'm a MERN stack developer who loves turning ideas into working apps, from the interface to the API to the database. I practice problem solving on LeetCode, contribute to open source, and I'm exploring AI/ML and data science."
+  },
+  "links": [
+  { "label": "Email", "href": "mailto:hemanthl1307@gmail.com" },
+  { "label": "LinkedIn", "href": "https://www.linkedin.com/in/hemanth-l-a09525385/" },
+  { "label": "GitHub", "href": "https://github.com/hemanthl1307" },
+  { "label": "LeetCode", "href": "https://leetcode.com/u/Gojo13/" }
+],  
+  "skills": [
+    { "label": "frontend", "items": ["HTML", "CSS", "Tailwind CSS", "Bootstrap CSS", "React js", "Redux", "Redux Toolkit"] },
+    { "label": "backend", "items": ["Node.js", "Express.js", "Authentication", "Authorization", "REST API"] },
+    { "label": "databases", "items": ["MongoDB", "SQL"] },
+    { "label": "tools", "items": ["Git", "GitHub", "Hoppscotch", "Vercel", "VS Code"] },
+    { "label": "core", "highlight": true, "items": ["DSA", "CN", "DBMS", "OOPs"] }
+  ],
+  "projects": [
+    {
+      "title": "feat: StayMate",
+      "repo": "hemanthl1307/StayMate",
+      "number": 1,
+      "status": "Open",
+      "description": "A platform to discover PGs, hostels and rental rooms",
+      "removed": "small practice apps",
+      "added": ["one complete major MERN project", "still being built, live soon"],
+      "tech": ["React", "Node.js", "Express", "MongoDB"],
+      "codeUrl": "https://github.com/hemanthl1307/StayMate",
+      "liveUrl": ""
+    },
+    {
+      "title": "feat: Mini Projects",
+      "repo": "hemanthl1307/Mini-Project",
+      "number": 2,
+      "status": "Merged",
+      "description": "A platform to discover PGs, hostels and rental rooms",
+      "removed": "learning one concept at a time",
+      "added": ["a collection of small working apps", "every mini project is live"],
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "codeUrl": "https://github.com/hemanthl1307/Mini-Project",
+      "liveUrl": "https://mini-project-psi-brown.vercel.app/"
+    }
+  ],
+  "academics": [
+    { "hash": "e41a9c2", "title": "B.E. in Computer Science (Data Science)", "sub": "Cambridge Institute of Technology, CGPA 9.61", "date": "2024 to 2028" },
+    { "hash": "a7c03d1", "title": "Best Outstanding Student of the Year", "sub": "Cambridge Institute of Technology", "date": "2025-26" },
+    { "hash": "5b92e8f", "title": "Reliance Foundation UG Scholar", "sub": "Reliance Foundation", "date": "Scholarship" },
+    { "hash": "1d6f4a0", "title": "Pre-University (PCMC), 96.1%", "sub": "Narayana PU College", "date": "Pre-university" }
+  ],
+  "github": { "username": "hemanthl1307", "url": "https://github.com/hemanthl1307" },
+  "leetcode": { "username": "Gojo13", "url": "https://leetcode.com/u/Gojo13/" },
+  "contact": { "email": "", "replyTime": "2 days" }
+}
